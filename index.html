@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" href="./assets/img/about-profile.png">
+  <title>Sesaria</title>
+</head>
+
+<style>
+  .hero-title,
+  .hero-quote,
+  .hero-experience {
+    transition: transform 0.5s ease-in-out; 
+
+  }
+
+  .hero-title {
+    transform: translateY(0); 
+    z-index: 0;
+    width: 700px;
+    margin-bottom: -50px;
+
+  }
+
+  .hero-profile {
+    position: relative; 
+    z-index: 2; 
+    width: 750px;
+  }
+
+  .hero-quote,
+  .hero-experience {
+    transform: translateY(0); 
+  }
+</style>
+
+
+<body>
+  <section class="container">
+    <header class="header">
+      <a href="./index.html" class="header-title-link">
+        <h1 class="header-title">Sesaria</h1>
+      </a>
+      <nav class="header-nav">
+        <a href="./index.html" class="header-link">Home</a>
+        <a href="./index.html#about" class="header-link">About Me</a>
+        <a href="./projects.html" class="header-link">Project</a>
+        <a href="./index.html#footer" class="header-link">Contact</a>
+      </nav>
+    </header>
+  </section>
+<section class="container">
+  <div class="hero">
+    <div class="hero-wrap">
+      <img src="./assets/img/hero-title.png" alt="Hero Title" class="hero-title">
+      <img src="./assets/img/hero-profile.png" alt="Hero Profile" class="hero-profile">
+    </div>
+    <div class="hero-left">
+      <img src="./assets/img/hero-quote.png" alt="Hero Quote" class="hero-quote">
+    </div>
+    <div class="hero-right">
+      <img src="./assets/img/hero-experience.png" alt="Hero Experience" class="hero-experience">
+    </div>
+  </div>
+</section>
+  <section class="expertise-container">
+    <div class="container">
+      <div class="expertise">
+        <h2 class="expertise-title">My <span>Expertise</span></h2>
+        <div class="expertise-wrap">
+          <a href="./projects.html?data-category=ui-ux" class="expertise-box">
+            <h3 class="expertise-subtitle">UI/UX</h3>
+            <div class="expertise-animation">
+              <div class="expertise-display"></div>
+              <img src="./assets/img/project-1.png" class="expertise-img" alt="Expertise 1">
+            </div>
+            <div class="expertise-offset">
+              <button class="expertise-action">
+                <img src="./assets/img/icon-upright.png" alt="Up Right">
+              </button>
+            </div>
+          </a>
+          <a href="./projects.html?data-category=web-design" class="expertise-box">
+            <h3 class="expertise-subtitle">Web Design</h3>
+            <div class="expertise-animation">
+              <div class="expertise-display"></div>
+              <img src="./assets/img/project-2.png" class="expertise-img" alt="Expertise 2">
+            </div>
+            <div class="expertise-offset">
+              <button class="expertise-action">
+                <img src="./assets/img/icon-upright.png" alt="Up Right">
+              </button>
+            </div>
+          </a>
+          <a href="./projects.html?data-category=advertisement" class="expertise-box">
+            <h3 class="expertise-subtitle">Advertisement</h3>
+            <div class="expertise-animation">
+              <div class="expertise-display"></div>
+              <img src="./assets/img/project-3.png" class="expertise-img" alt="Expertise 3">
+            </div>
+            <div class="expertise-offset">
+              <button class="expertise-action">
+                <img src="./assets/img/icon-upright.png" alt="Up Right">
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="about">
+    <div class="about">
+      <div class="about-profile">
+        <img src="./assets/img/about-profile.png" alt="About Profile" class="about-img">
+      </div>
+      <div class="about-wrap">
+        <h2 class="about-title">About <span>ME</span></h2>
+        <p class="about-content">Sesaria is a passionate graphic designer with a keen eye for creativity and detail. With a strong background in visual communication, she specialize in crafting compelling designs that bring ideas to life.</p>
+        <div class="about-progress">
+          <div class="progress">
+            <h4 class="progress-title">UI/UX</h4>
+            <div class="progress-bg">
+              <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <h4 class="progress-title">Web Design</h4>
+            <div class="progress-bg">
+              <div class="progress-bar" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <h4 class="progress-title">Graphic Design</h4>
+            <div class="progress-bg">
+              <div class="progress-bar" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="future-container">
+    <div class="container">
+      <div class="future">
+        <img src="./assets/img/future-profile.png" alt="Future Profile" class="future-img">
+        <h2 class="future-title">Ongoing Project with <span>PT XYZ</span></h2>
+        <p class="future-paragraph">I am currently collaborating with PT XYZ on a design project focused on brand identity and UI/UX design. This involves conceptualizing, prototyping, and visual design to create a seamless user experience and a strong brand presence.</p>
+        <p class="future-paragraph">Through this collaboration, I have refined my skills in Adobe Creative Suite, Figma, and motion graphics, while exploring new design approaches. I have been actively involved in user research, typography selection, and interactive design, ensuring that every element aligns with the project’s vision. Working closely with PT XYZ has also provided valuable insights into industry trends and user behavior. As the project progresses, I look forward to sharing updates and showcasing the final results. Stay tuned!</p>
+      </div>
+      <div alt="Future Image" class="future-bg"></div>
+    </div>
+  </section>
+  <section class="strip-container">
+    <div class="marquee-container">
+      <div class="marquee-content">
+          <div class="marquee-layer">
+              <img src="./assets/img/Component 13.png" alt="icon">
+              <img src="./assets/img/Component 13.png" alt="icon">
+          </div>
+
+      </div>
+  </div>
+  </section>
+  <section class="container">
+    <div class="recent">
+      <div class="recent-header">
+        <h2 class="recent-title">Let’s Have a Look At My <br><span>RECENT PROJECT</span></h2>
+        <a href="./projects.html" class="recent-action">See All</a>
+      </div>
+      <div class="recent-wrap">
+        <a href="./project-1.html" class="project">
+          <img src="./assets/img/project-1.png" alt="Project 1" class="project-img">
+          <div class="project-wrap">
+            <h3 class="project-title">HABIT TRACKER</h3>
+            <p class="project-description">UI/UX DESIGN, 2022</p>
+          </div>
+          <div class="project-offset">
+            <button class="project-action">
+              <img src="./assets/img/icon-right.png" alt="Right">
+            </button>
+          </div>
+        </a>
+        <a href="./project-3.html" class="project">
+          <img src="./assets/img/project-3.png" alt="Project 3" class="project-img">
+          <div class="project-wrap">
+            <h3 class="project-title">WEB CHAT</h3>
+            <p class="project-description">WEB DESIGN, 2021</p>
+          </div>
+          <div class="project-offset">
+            <button class="project-action">
+              <img src="./assets/img/icon-right.png" alt="Right">
+            </button>
+          </div>
+        </a>
+        <a href="./project-5.html" class="project">
+          <img src="./assets/img/project-5.png" alt="Project 5" class="project-img">
+          <div class="project-wrap">
+            <h3 class="project-title">COCA COLA</h3>
+            <p class="project-description">ADVERTISEMENT, 2020</p>
+          </div>
+          <div class="project-offset">
+            <button class="project-action">
+              <img src="./assets/img/icon-right.png" alt="Right">
+            </button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="footer-container">
+    <div class="container">
+      <footer class="footer" id="footer">
+        <div class="footer-head">
+          <h3 class="footer-title">Let's Connect There</h3>
+        </div>
+        <hr>
+        <div class="footer-body">
+          <div class="footer-content">
+            <p class="footer-description">If you're interested in collaborating or just want to chat about design, feel free to reach out. Let's create something amazing together!</p>
+            <div class="footer-links">
+              <a href="https://facebook.com" target="_blank" class="footer-link">
+                <img src="./assets/img/icon-facebook.png" alt="Facebook">
+              </a>
+              <a href="https://youtube.com" target="_blank" class="footer-link">
+                <img src="./assets/img/icon-youtube.png" alt="Youtube">
+              </a>
+              <a href="https://whatsapp.com" target="_blank" class="footer-link">
+                <img src="./assets/img/icon-whatsapp.png" alt="Whatsapp">
+              </a>
+              <a href="https://instagram.com" target="_blank" class="footer-link">
+                <img src="./assets/img/icon-instagram.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h4 class="footer-subtitle">Contact</h4>
+            <div class="footer-contact-list">
+              <a href="tel:+620812345678" target="_blank">+62 0812 345 678</a>
+              <a href="mailto:sesariadesign@gmail.com" target="_blank">sesariadesign@gmail.com</a>
+              <a href="https://sesariadesign.com" target="_blank">sesariadesign.com</a>
+            </div>
+          </div>
+          <div class="footer-subcription">
+            <h4 class="footer-subtitle">Get the latest information</h4>
+            <div class="input-group">
+                <input type="email" id="emailInput" placeholder="Enter your email">
+                <button onclick="sendEmail()">
+                    <img src="./assets/img/icon-send.png" alt="Send">
+                </button>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </footer>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function sendEmail() {
+    var email = document.getElementById("emailInput").value;
+    if (email) {
+        window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=sesariadesign@gmail.com&su=Subscription&body=I want to subscribe using this email: ${email}`;
+    } else {
+        alert("Please enter your email first.");
+    }
+  }
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY; 
+    const heroTitle = document.querySelector('.hero-title');
+    const heroQuote = document.querySelector('.hero-quote');
+    const heroExperience = document.querySelector('.hero-experience');
+
+    heroTitle.style.transform = `translateY(${scrollY * 0.5}px)`; 
+
+    heroQuote.style.transform = `translateY(${-scrollY * 0.5}px)`;
+    heroExperience.style.transform = `translateY(${-scrollY * 0.5}px)`; 
+  }); 
+
+    document.querySelectorAll('.header-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      if (this.hash) {
+        e.preventDefault();
+
+        const targetId = this.hash; 
+        const targetSection = document.querySelector(targetId); 
+
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start', 
+          });
+        }
+      }
+    });
+  });
+  </script>
+  <script src="script.js"></script>
+
+</body>
+</html>
