@@ -1,0 +1,139 @@
+
+/* Responsif untuk ponsel & tablet */
+@media (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+
+  .header-title{
+    display: none;
+  }
+
+  .marquee-layer img {
+      transform: scale(5);
+  }
+}
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+  .header-nav {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .marquee-layer img {
+      transform: scale(2.5);
+  }
+
+}
+
+
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 767px){
+  .showcase {
+    padding: 4rem 0;
+  }
+  .showcase-img {
+    width: 100%; /* Full width for smaller screens */
+    margin: 0; /* Remove margin */
+    margin-top: -50px !important;
+    margin-bottom: 20px;
+  }
+
+  .project-banner{
+     margin-bottom: 20px;
+
+  }
+  .project-title {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    display: block; /* Tampilkan deskripsi di tablet/desktop */
+    color: #FFEAD5;
+    font-size: 1rem;
+  }
+  
+  
+  .showcase-category {
+      display: flex;
+      flex-wrap: wrap; /* Tombol kategori bisa wrap di HP */
+      gap: 0.5rem; /* Kurangi jarak antar tombol */
+      justify-content: center;
+      padding: 0.5rem; /* Kurangi padding keseluruhan */
+  }
+
+  .showcase-option {
+      font-size: 1rem; /* Kurangi ukuran font */
+      padding: 0.5rem 1rem; /* Kurangi padding tombol */
+      border-radius: 2rem; /* Kurangi border-radius agar tombol lebih kecil */
+  }
+
+  
+
+  .showcase-project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem 0; 
+    margin-bottom:-10px !important;
+  }
+  
+}
+
+
+
+
+
+/* Responsive Styles for iPad (768px - 1024px) */
+ @media (min-width: 767px) and (max-width: 1024px) {
+
+  .showcase {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+  }
+  
+  .showcase-img {
+    width: 80% !important;
+    display: block;
+    margin: 0 auto 50px auto; /* Tengah secara horizontal */
+  }
+
+
+  .project-title {
+    font-size: 2rem; 
+  }
+
+  .project-description {
+    display: block; /* Tampilkan deskripsi di tablet/desktop */
+    color: #FFEAD5;
+    font-size: 1rem;
+  }
+  
+  
+  .showcase-category {
+    display: flex;
+    flex-wrap: wrap; /* Tombol kategori bisa wrap di HP */
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  
+
+  .showcase-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Tengah secara horizontal */
+    gap: 1.5rem;
+    padding: 1rem 0; 
+    margin-bottom:-10px !important;
+    justify-content: center; /* Tengah secara horizontal */
+
+  }
+  
+  
+}
